@@ -3,6 +3,8 @@ body {
   margin-left: 10%;
   margin-right: 15%;
   padding: 0;
+  min-width: 648px;
+  max-width: 1320px;
 }
 
 #sesion1 {
@@ -169,8 +171,11 @@ table {
 }
 
 .separator1 {
+  font-size: 70%;
   margin-top: 0;
   margin-left: 3px;
+  max-width: 50%;
+  resize: both;
 }
 
 .number {
